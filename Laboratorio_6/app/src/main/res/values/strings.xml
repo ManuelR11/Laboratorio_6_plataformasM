@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Laboratorio_6</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search</string>
+    <string name="your_top_genres">Your top genres</string>
+    <string name="banda">Banda</string>
+    <string name="hip_hop">Hip Hop</string>
+    <string name="latina">Latina</string>
+</resources>
