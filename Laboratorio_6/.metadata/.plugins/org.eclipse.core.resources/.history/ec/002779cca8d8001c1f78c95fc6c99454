@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+
+/**
+ * @author manuel rodas
+ * @author
+ */
+public class Direcciones {
+    String Lugar1 = "";
+    String Lugar2 = "";
+    int km = 0;
+
+    /**
+     * constructor de Direcciones con parametros
+     */
+    public Direcciones(String a, String b, String c){
+        Lugar1 = a;
+        Lugar2 = b;
+        km = Integer.parseInt(c);
+    }
+
+    /**
+     * impresiond el string
+     * @return string
+     */
+    @Override
+    public String toString() {
+        return "Conexión{" +
+                "ciudad1='" + ciudad1 + '\'' +
+                ", ciudad2='" + ciudad2 + '\'' +
+                ", km=" + km +
+                '}';
+    }
+}
